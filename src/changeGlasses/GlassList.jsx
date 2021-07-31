@@ -18,7 +18,6 @@ class GlassList extends Component {
 
 
     render() {
-        // console.log(this.props.glassList);
         return (
             <div className="container">
                 <div className="row">

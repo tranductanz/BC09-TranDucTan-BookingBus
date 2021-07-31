@@ -27,22 +27,6 @@ class Home extends Component {
         }
     }
 
-    // changeGlassModel = (value) => {
-    //     const cloneGlass = [...this.state.glassList];
-
-    //     const foundIndex = cloneGlass.findIndex((item) => {
-    //         return item.selectedGlass.id === value.id;
-    //     })
-    //     console.log(foundIndex);
-    //     const glassItem = {
-    //         selectedGlass: value,
-    //         isChoose: true,
-    //     }
-    //     cloneGlass.push(glassItem);
-    //     this.setState({
-    //         glassList: cloneGlass
-    //     })
-    // }
 
     setSelectedProduct = (val) => {
         this.setState({
